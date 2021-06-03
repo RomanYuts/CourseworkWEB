@@ -1,0 +1,54 @@
+<template>
+<div id ="top_chart_1">
+    <div id="message">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+                <image id="Ellipse_6_copy" data-name="Ellipse 6 copy" width="70" height="70" xlink:href="data:img/png;base64,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"/>
+            </svg>
+        </div>
+        <div class="text">
+            <div id="value1" class="counter" data-counttarget="400">0</div>
+            <div>Mentioned</div>
+        </div>
+    </div>
+</div>
+</template>
+
+<script>
+
+</script>
+
+<style lang="less">
+
+#top_chart_1 {
+    font-size: 10pt;
+    display: flex;
+    align-items: center;
+}
+
+#top_chart_1 #message {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+
+#top_chart_1  #value1 {
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+ #top_chart_1 .icon {
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+#top_chart_1 .text {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+</style>

@@ -1,0 +1,54 @@
+<template>
+<div id ="top_chart_4">
+    <div id="message">
+        <div class="icon">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="70" viewBox="0 0 70 70">
+                <image id="email-icon" width="70" height="70" xlink:href="data:img/png;base64,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"/>
+            </svg>
+        </div>
+        <div class="text">
+            <div id="value" class="counter" data-counttarget="350">0</div>
+            <div>New Message</div>
+        </div>
+    </div>
+</div>
+</template>
+
+<script>
+
+</script>
+
+<style lang="less">
+
+#top_chart_4 {
+    font-size: 10pt;
+    display: flex;
+    align-items: center;
+}
+
+#top_chart_4 #message {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  
+}
+
+#top_chart_4  #value {
+    font-size: 20pt;
+    font-weight: 700;
+}
+
+ #top_chart_4 .icon {
+    display: inline-block;
+    vertical-align: middle;
+ }
+
+#top_chart_4 .text {
+    display: inline-block;
+    padding-left: 15px;
+    vertical-align: middle;
+}
+
+</style>

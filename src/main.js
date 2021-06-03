@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
+import router from './router/index.js'
+
 
 Vue.config.productionTip = false
 
@@ -8,3 +10,8 @@ new Vue({
   router,
   render: h => h(App)
 }).$mount('#app')
+
+
+const ld = require('../public/loadpage.js');
+
+ld.LoadPage();

@@ -1,14 +1,32 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Pageunderconstruction from '../components/Pageunderconstruction.vue'
+import Starterpage from '../components/Starterpage.vue'
+import Notfoundpage from '../components/NotFoundPage.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/',
+    path: '/Home',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '*',
+    name: 'Notfoundpage',
+    component: Notfoundpage
+  },
+  {
+    path: '/',
+    name: 'Starterpage',
+    component: Starterpage
+  },
+  {
+    path: '/Pageunderconstruction',
+    name: 'Pageunderconstruction',
+    component: Pageunderconstruction
   },
   {
     path: '/about',
